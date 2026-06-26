@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piksel</title>
+</head>
+<body>
+    <p class = "programm_moving" id = "m1_id"> </p>
+    <header>
+        <img class = "icon" src = "https://cdn-icons-png.flaticon.com/512/6478/6478163.png">
+        <p class = "h_text">Pixel</p>
+        <img class = "icon_2" src = "https://cdn-icons-png.flaticon.com/512/59/59628.png">
+    </header>
+    <main>
+        <a href = "#m2_id">
+            <button class = "mbt">Начать творить!</button>
+        </a>
+        <p class = "description">Pixel - это творческий способ сделать изображение. Тут можно рисовать только пикселями в области 30 Х 15. Это тяжело, но результат того стоит.</p>
+    </main>
+    <div class = "screenshots">
+    </div>
+<!-- programm = field_container, colors = colour-palette, grid = field, color = color_cell, COLOR_MAP = COLORS-->
+    <p class = "programm_moving" id = "m2_id"> </p>
+    <div class = "programm">
+        <div class = "drowing_field">
+            <div class = "colors">
+                <div class = "color red selected"></div>
+                <div class = "color orange"></div>
+                <div class = "color yellow"></div>
+                <div class = "color green"></div>
+                <div class = "color l-blue"></div>
+                <div class = "color blue"></div>
+                <div class = "color purple"></div>
+                <div class = "color white"></div>
+                <div class = "color black"></div>
+            </div class = "tools">
+                <img class = "eraser" src="https://cdn-icons-png.flaticon.com/512/2732/2732633.png">
+                <img class = "fill-tool" src="https://cdn-icons-png.flaticon.com/512/4925/4925265.png">
+            <div>
+            </div>
+            <div id = "grid_id" class = "grid">
+            </div>
+        </div>
+        <div class = "buttons">
+            <button class = "save_btn">Сохранить</button>
+            <a href = "#m1_id">
+                <button class = "back_btn">Назад</button>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+</html>
