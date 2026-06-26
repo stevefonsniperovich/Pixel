@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh; 
+    color: rgb(50, 0, 60);
+}
+header {
+    width: 100wv;
+    height: 100px;
+    background-color: rgb(120, 0, 180);
+    display: flex;
+    opacity: 1;
+}
+.icon {
+    height: 80px;
+    width: 80px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+.h_text{
+    font-size: 85px;
+    margin-top: 5px;
+}
+.icon_2 {
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 90px;
+    padding: 0;
+    background-color: rgb(80, 0, 100);
+}
+main{
+    background-color: rgb(170, 0, 255);
+    margin-bottom: 0;
+    opacity: 1;
+}
+.mbt{
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: 1.5em;
+    color: rgb(50, 0, 60);
+    background-color: rgb(130, 0, 240);
+    border: 2px rgb(80, 0, 100) solid;
+    border-radius: 3px;
+}
+.mbt:hover{
+    color: rgb(80, 0, 90);
+    background-color: rgb(160, 0, 255);
+    border: 2px rgb(110, 0, 130) solid;
+    border-radius: 3px;
+}
+.description{
+    font-size: 1.25em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+.programm{
+    background-color: rgb(130, 0, 240);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.grid{
+    width: 70vw;
+    height: 35vw;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.cell{
+    background-color: rgb(255, 255, 255);
+}
+.colors{
+    display: grid;
+    width: 5vw;
+    height:35vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    gap: 0;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+}
+.orange{
+    background-color: rgb(255, 140, 0);
+    border: 1px solid black;
+}
+.yellow{
+    background-color: rgb(251, 255, 0);
+    border: 1px solid black;
+}
+.green{
+    background-color: rgb(0, 153, 10);
+    border: 1px solid black;
+}
+.l-blue{
+    background-color: rgb(0, 199, 234);
+    border: 1px solid black;
+}
+.blue{
+    background-color: rgb(4, 0, 234);
+    border: 1px solid black;
+}
+.purple{
+    background-color: rgb(144, 0, 234);
+    border: 1px solid black;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.drowing_field{
+    display: flex;
+}
+.tools{
+    margin-top: 20px;
+}
+.eraser{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.fill-tool{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.save_btn{
+    margin-bottom: 20px;
+    margin-left: 125px;
+    font-size: 1.5em;
+    color: rgb(0, 4, 79);
+    background-color: rgb(5, 2, 191);
+    border: 2px rgb(38, 0, 100) solid;
+    border-radius: 3px;
+}
+.save_btn:hover{
+    color: rgb(0, 81, 90);
+    background-color: rgb(0, 238, 255);
+    border: 2px rgb(0, 115, 130) solid;
+    border-radius: 5px;
+}
+.back_btn{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: rgb(0, 4, 79);
+    background-color: rgb(5, 2, 191);
+    border: 2px rgb(38, 0, 100) solid;
+    border-radius: 3px;
+}
+.back_btn:hover{
+    color: rgb(0, 81, 90);
+    background-color: rgb(0, 238, 255);
+    border: 2px rgb(0, 115, 130) solid;
+    border-radius: 5px;
+}
